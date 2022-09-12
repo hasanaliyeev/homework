@@ -29,5 +29,14 @@ print(nums)  # [2, 3, 5, 6, 6, 7, 7, 7]
 a = [1, 6, 3]
 a.reverse()
 print(a)
+del a[1]
+print(a)
+a.remove(1)
+print(a)
+b = [2, 4, 1, 8]
+a.extend(b)
+print(a)
+a.pop(0)
+print(a)
 
 
