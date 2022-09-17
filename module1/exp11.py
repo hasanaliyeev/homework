@@ -103,6 +103,16 @@ employees = {'emp1': {'name': 'Gasan', 'salary': 7500},
              'emp3': {'name': 'Gyunel', 'salary': 6500}}
 employees['emp3']['salary'] = 8500
 print(employees)
+d.clear()
 
-# homeworks
+# TODO Homeworks
+# work-1
+d = {'v': 's001', 'v1': 's002', 'v2': 's001', 'v3': 's005', 'v4': 's005', 'v5': 's009', 'v6': 's007'}
+values = d.values()
+new_values = set(values)
+print('Values:', new_values)
+
+# work-2
+d = {'name': 'Kelly', 'age': 25, 'salary': 8000, 'city': 'New York'}
+
 
