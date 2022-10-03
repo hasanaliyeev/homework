@@ -57,3 +57,16 @@ for i in ls:
         break
 else:
     print('Четные числа не найдены!')
+
+# homework_2_1
+txt = 'Python else loop'
+b = False
+for i in range(0, len(txt) - 1):
+    if txt[i] == 'l':
+        if txt[i + 1] in ['a', 'o', 'e']:
+            print(txt[i + 1])
+            b = True
+if b == False:
+    print('Искомые комбинации не найдены!')
+print()
+
